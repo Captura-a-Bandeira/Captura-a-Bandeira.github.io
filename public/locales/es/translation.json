@@ -1,0 +1,49 @@
+{
+    "header": {
+        "about": "El evento",
+        "agenda": "Programa",
+        "inscriptions": "Inscripciones",
+        "faq": "FAQ" 
+    },
+    "hero": {
+        "title": "Captura a Bandeira v1",
+        "subtitle1": "¿Quieres aprender sobre ciberseguridad?",
+        "subtitle2": "¡Únete a nuestro CTF y pon a prueba tus habilidades!",
+        "inscribe": "Inscribirse",
+        "date": "12/03/2026 - 09:30",
+        "location": "ETSE, Santiago de Compostela"
+    },
+    "about": {
+        "title": "El evento",
+        "description": "Captura a Bandeira es un evento de ciberseguridad tipo CTF donde los equipos participantes compiten para resolver desafíos relacionados con la ciberseguridad. El objetivo es capturar 'banderas' escondidas en distintos retos con ingenio y habilidad.",
+        "data": "12 de marzo a las 09:30",
+        "duration": "4.5 horas",
+        "location": "Sala de trabajo, ETSE (Santiago de Compostela)",
+        "teams": "Equipos de hasta 5 personas",
+        "teams2": "Puedes participar individualmente, pero será mucho más divertido si formas un equipo. Puedes inscribirte individualmente e indicar que buscas equipo, te juntaremos con otros compañeros sin equipo.",
+        "prizesTitle": "Premios",
+        "prizesDescription": "Aunque lo más importante para nosotros es que disfrutéis y aprendáis, los participantes del equipo ganador recibirán",
+        "prize": "Un disco duro externo de 500GB"
+    },
+    "inscriptions": {
+        "title": "Inscripciones",
+        "form": "Ir al formulario de inscripción",
+        "inscribe": "Tenemos pocas plazas, ¡así que no esperes para inscribirte!"
+    },
+    "faq": {
+        "title": "Preguntas frecuentes",
+        "q1": "¿Qué es un CTF?",
+        "a1": "Un CTF (Capture The Flag) es una competición de ciberseguridad donde los participantes resuelven desafíos para capturar 'banderas' escondidas. Estos desafíos pueden incluir criptografía, análisis forense, explotación de vulnerabilidades, entre otros.",
+        "q2": "¿Puedo participar si no tengo experiencia previa en ciberseguridad?",
+        "a2": "¡Claro! Nuestro CTF está diseñado para ser accesible tanto para principiantes como para expertos. Habrá desafíos de diferentes niveles de dificultad, así que todos podrán disfrutar y aprender.",
+        "q3": "¿Cómo puedo formar un equipo?",
+        "a3": "Puedes inscribirte individualmente e indicar que buscas equipo. Te juntaremos con otros compañeros sin equipo para que puedas participar en grupo.",
+        "q4": "¿Debo llevar algo?",
+        "a4": "Al menos un portátil por equipo es necesario para poder participar en los desafíos.",
+        "questions": "¿Tienes más preguntas?",
+        "contact": "Contáctanos en nuestro correo electrónico:"
+    },
+    "footer": {
+        "rights": "Todos los derechos reservados."
+    }
+}
