@@ -25,11 +25,11 @@ const Header = () => {
 
       <style>{`
         header {
-          background-color: var(--bg-header);
+          background: var(--bg-header);
           color: var(--text-primary);
           min-height: 4rem;
           min-width: 100%;
-          padding: 0.2rem 2rem;
+          padding: 0.5rem 2rem;
           position: fixed;
           top: 0;
           z-index: 100;
@@ -57,6 +57,12 @@ const Header = () => {
         .language-switcher {
           display: flex;
           gap: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+          header nav {
+            display: none;
+          }
         }
       `}</style>
     </header>

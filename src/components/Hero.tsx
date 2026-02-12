@@ -15,7 +15,6 @@ const Header = () => {
       </div>
 
       <button onClick={() => (window.location.hash = 'inscriptions')} className="btn-inscription">{t('hero.inscribe')}</button>
-        
 
       <style>{`
         #hero {
@@ -23,6 +22,15 @@ const Header = () => {
           align-items: center;
           justify-content: center;
           min-height: 100dvh; 
+        }
+
+        #hero h1 {
+          animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+          from { opacity: 0; transform: translateY(30px); }
+          to { opacity: 1; transform: translateY(0); }
         }
 
         .info {
@@ -34,6 +42,24 @@ const Header = () => {
 
         .btn-inscription {
           margin-top: 2rem;
+          animation: pulse 2s;
+        }
+
+        @keyframes pulse {
+          0%, 100% { transform: scale(1); }
+          50% { transform: scale(1.25); }
+        }
+
+        @media (max-width: 768px) {
+          .info {
+            flex-direction: column;
+            align-items: center;  
+            gap: 0;
+          }
+
+          #hero p {
+            text-align: center;
+          }
         }
       `}</style>
     </section>

@@ -19,6 +19,8 @@ html, body, #root {
 
 .app {
   background: linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));
+  position: relative;
+  overflow-x: hidden;
 }
 
 .section {
@@ -103,6 +105,12 @@ details {
   box-shadow: var(--accent-color) 0px 4px 12px ;
 }
 
+details:hover {
+  background: var(--accent-color); 
+  transform: translateY(-2px); 
+  transition: transform 0.2s ease; 
+}
+
 summary {
     font-weight: bold;
 }
@@ -117,4 +125,28 @@ details p {
   z-index: 100;
   background: var(--accent-color);
   margin: 1rem 0;
+}
+
+@media (max-width: 1024px) {
+  .section {
+    padding: 3rem 5rem;
+  }
+}
+
+@media (max-width: 768px) { 
+  .section { 
+    padding: 2rem 2rem; 
+  } 
+
+  h1 {
+    text-align: center;
+  }
+
+  button:hover { 
+    transform: none;
+  }
+
+  details:hover {
+    transform: none; 
+  }
 }

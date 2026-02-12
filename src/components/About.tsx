@@ -56,7 +56,7 @@ const About: React.FC = () => {
         }
 
         .prize {
-          font-size: 1.2rem;
+          font-size: 1.3rem;
           font-weight: bold;
           padding: 1rem;
         }
@@ -64,6 +64,12 @@ const About: React.FC = () => {
         .prizes p {
           margin: 0.5rem 0;
         }
+
+        @media (max-width: 768px) {
+          .about {
+            flex-direction: column;
+      }
+        } 
       `}</style>
     </section>
   );
