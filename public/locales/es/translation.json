@@ -22,7 +22,7 @@
         "teams": "Equipos de hasta 5 personas",
         "teams2": "Puedes participar individualmente, pero será mucho más divertido si formas un equipo. Puedes inscribirte individualmente e indicar que buscas equipo, te juntaremos con otros compañeros sin equipo.",
         "prizesTitle": "Premios",
-        "prizesDescription": "Aunque lo más importante para nosotros es que disfrutéis y aprendáis, los participantes del equipo ganador recibirán",
+        "prizesDescription": "Aunque lo más importante para nosotros es que disfrutéis y aprendáis, cada participante del equipo ganador recibirá",
         "prize": "Un disco duro externo de 500GB"
     },
     "inscriptions": {
@@ -33,7 +33,7 @@
     "faq": {
         "title": "Preguntas frecuentes",
         "q1": "¿Qué es un CTF?",
-        "a1": "Un CTF (Capture The Flag) es una competición de ciberseguridad donde los participantes resuelven desafíos para capturar 'banderas' escondidas. Estos desafíos pueden incluir criptografía, análisis forense, explotación de vulnerabilidades, entre otros.",
+        "a1": "Un CTF (Capture The Flag) es una competición de ciberseguridad donde los participantes resuelven desafíos para capturar 'banderas' escondidas. Estos desafíos pueden incluir criptografía, ingeniería inversa, explotación de vulnerabilidades, hacking web, ...",
         "q2": "¿Puedo participar si no tengo experiencia previa en ciberseguridad?",
         "a2": "¡Claro! Nuestro CTF está diseñado para ser accesible tanto para principiantes como para expertos. Habrá desafíos de diferentes niveles de dificultad, así que todos podrán disfrutar y aprender.",
         "q3": "¿Cómo puedo formar un equipo?",

@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <footer>
       <div className="footer-content">
         <p><strong>Financiado por:</strong> Vicerreitoría de Estudantes e Cultura da USC</p>
-        <p><strong>Colaboración con:</strong> Aula Proferional ETSE</p>
+        <p><strong>Colaboración con:</strong> Aula Profesional ETSE</p>
       </div>
       
       <a href='mailto:capturaabandeira@proton.me'><span className="material-symbols-outlined">mail</span>capturaabandeira@proton.me</a>

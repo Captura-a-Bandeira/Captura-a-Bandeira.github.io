@@ -8,7 +8,7 @@
     "hero": {
         "title": "Captura a Bandeira v1",
         "subtitle1": "Queres aprender sobre ciberseguridade?",
-        "subtitle2": "¡Únete ao noso CTF e pon a proba as túas habilidades!",
+        "subtitle2": "Únete ó noso CTF e pon a proba as túas habilidades!",
         "inscribe": "Inscribirse",
         "date": "12/03/2026 - 09:30",
         "location": "ETSE, Santiago de Compostela"
@@ -22,23 +22,23 @@
         "teams": "Equipos de ata 5 persoas",
         "teams2": "Podes participar individualmente, pero será moito máis divertido se formas un equipo. Podes inscribirte individualmente e indicar que buscas equipo, xuntarémoste con outros compañeiros sen equipo.",
         "prizesTitle": "Premios",
-        "prizesDescription": "Aínda que o máis importante para nós é que disfrutedes e aprendades, os participantes do equipo gañador recibirán",
+        "prizesDescription": "Aínda que o máis importante para nós é que disfrutedes e aprendades, cada participante do equipo gañador recibirá",
         "prize": "Un disco duro externo de 500GB"
     },
     "inscriptions": {
         "title": "Inscricións",
         "form": "Ir ao formulario de inscrición",
-        "inscribe": "Temos poucas prazas, ¡así que non esperes para inscribirte!"
+        "inscribe": "Temos poucas prazas, así que non esperes para inscribirte!"
     },
     "faq": {
         "title": "Preguntas frecuentes",
-        "q1": "¿Qué é un CTF?",
-        "a1": "Un CTF (Capture The Flag) é unha competición de ciberseguridade onde os participantes resolven desafíos para capturar 'bandeiras' escondidas. Estes desafíos poden incluír criptografía, análise forense, explotación de vulnerabilidades, entre outros.",
+        "q1": "Qué é un CTF?",
+        "a1": "Un CTF (Capture The Flag) é unha competición de ciberseguridade onde os participantes resolven desafíos para capturar 'bandeiras' escondidas. Estes desafíos poden incluír criptografía, enxeñaría inversa, explotación de vulnerabilidades, hacking web, ...",
         "q2": "Podo participar se non teño experiencia previa en ciberseguridade?",
-        "a2": "¡Claro! O noso CTF está deseñado para ser accesible tanto para principiantes como para expertos. Haberá desafíos de diferentes niveis de dificultade, así que todos poderán disfrutar e aprender.",
-        "q3": "¿Cómo podo formar un equipo?",
+        "a2": "Claro! O noso CTF está deseñado para ser accesible tanto para principiantes como para expertos. Haberá desafíos de diferentes niveis de dificultade, así que todos poderán disfrutar e aprender.",
+        "q3": "Cómo podo formar un equipo?",
         "a3": "Podes inscribirte individualmente e indicar que buscas equipo. Xuntarémoste con outros compañeiros sen equipo para que poidas participar en grupo.",
-        "q4": "¿Debo levar algo?",
+        "q4": "Debo levar algo?",
         "a4": "Polo menos un portátil por equipo é necesario para poder participar nos desafíos.",
         "questions": "Tes máis preguntas?", 
         "contact": "Contáctanos no noso correo electrónico:"
