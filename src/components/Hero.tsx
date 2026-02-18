@@ -42,12 +42,12 @@ const Header = () => {
 
         .btn-inscription {
           margin-top: 2rem;
-          animation: pulse 2s;
+          animation: pulse 3s infinite;
         }
 
         @keyframes pulse {
           0%, 100% { transform: scale(1); }
-          50% { transform: scale(1.25); }
+          50% { transform: scale(1.1); }
         }
 
         @media (max-width: 768px) {
