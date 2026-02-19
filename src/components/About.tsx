@@ -15,6 +15,7 @@ const About: React.FC = () => {
           <p className='highlight'><span className="material-symbols-outlined">schedule</span>{t('about.duration')}</p>
           <p className='highlight'><span className="material-symbols-outlined">location_on</span><a href='https://maps.app.goo.gl/ybCr2WR1uZe9Q3uL9' target='_blank'>{t('about.location')}</a></p>
           <p className='highlight'><span className="material-symbols-outlined">group</span>{t('about.teams')}</p>
+          <p className='highlight'><span className="material-symbols-outlined">school</span>{t('about.credits')}</p>
 
           <p className="note">{t('about.teams2')}</p>
         </div>
@@ -39,6 +40,10 @@ const About: React.FC = () => {
           flex-direction: column;
         }
 
+        .highlight {
+          padding: 0.6rem 0;
+        }
+
         .highlight:hover {
           transform: translateY(-2px);
           transition: transform 0.5s ease;
@@ -47,7 +52,7 @@ const About: React.FC = () => {
         .note {
           font-style: italic;
           font-size: 0.9rem;
-          margin-top: 0.5rem;
+          margin-top: 0.6rem;
         }
 
         .prizes {
@@ -59,6 +64,7 @@ const About: React.FC = () => {
           flex-direction: column;
           justify-content: start;
           gap: 1rem;
+          height: fit-content;
         }
 
         .prizes:hover {
