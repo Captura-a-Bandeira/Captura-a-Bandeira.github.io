@@ -3,28 +3,34 @@
         "about": "O evento",
         "agenda": "Programa",
         "inscriptions": "Inscricións",
+        "gallery": "Galería",
         "faq": "FAQ" 
     },
     "hero": {
-        "title": "Captura a Bandeira v1",
-        "subtitle1": "Queres aprender sobre ciberseguridade?",
-        "subtitle2": "Únete ó noso CTF e pon a proba as túas habilidades!",
+        "title": "Estamos de volta!",
+        "subtitle": "Queres aprender sobre ciberseguridade?\nÚnete ó noso CTF e pon a proba as túas habilidades!",
         "inscribe": "Inscribirse",
+        "moreInfo": "Máis información",
         "date": "12/03/2026 - 09:30",
         "location": "ETSE, Santiago de Compostela"
     },
     "about": {
         "title": "O evento",
-        "description": "Captura a Bandeira é un evento de ciberseguridade tipo CTF onde os equipos participantes compiten para resolver desafíos relacionados coa ciberseguridade. O obxectivo é capturar 'bandeiras' escondidas en distintos retos con enxeño e habilidade.",
-        "data": "12 de marzo ás 09:30",
+        "description": "Captura a Bandeira é un {evento de ciberseguridade} tipo CTF onde os equipos participantes compiten para {resolver desafíos} relacionados coa ciberseguridade. O obxectivo é capturar bandeiras escondidas en distintos retos con enxeño e habilidade.",
+        "description2": "O evento terá lugar en {febreiro} na {Escola Técnica Superior de Enxeñaría, en Santiago de Compostela|https://maps.app.goo.gl/C8BoBHY9K1zYwhVe8?g_st=aw}. Incluirá {3.5 horas} de hacking, premios, cafés e moito máis!",
+        "description3": "Os equipos poden ser de ata {5 persoas}. Podes participar individualmente, pero será moito máis divertido se formas un equipo. Podes inscribirte individualmente e indicar que buscas equipo, intentaremos xuntarte con outros compañeiros sen equipo.",
+        "data": "Por determinar",
         "duration": "4.5 horas",
-        "location": "Sala de traballo, ETSE (Santiago de Compostela)",
-        "teams": "Equipos de ata 5 persoas",
+        "location": "ETSE (Santiago de Compostela)",
+        "teams": "Ata 5 persoas",
         "credits": "As horas de participación (4.5 horas) englóbanse na Aula Profesional",
         "teams2": "Podes participar individualmente, pero será moito máis divertido se formas un equipo. Podes inscribirte individualmente e indicar que buscas equipo, xuntarémoste con outros compañeiros sen equipo.",
         "prizesTitle": "Premios",
         "prizesDescription": "Aínda que o máis importante para nós é que disfrutedes e aprendades, cada participante do equipo gañador recibirá",
         "prize": "Pronto anunciaremos os premios para os gañadores, ¡estade atentos!"
+    },
+    "gallery": {
+        "title": "Edicións anteriores"
     },
     "inscriptions": {
         "title": "Inscricións",
@@ -38,12 +44,15 @@
         "q2": "Podo participar se non teño experiencia previa en ciberseguridade?",
         "a2": "Claro! O noso CTF está deseñado para ser accesible tanto para principiantes como para expertos. Haberá desafíos de diferentes niveis de dificultade, así que todos poderán disfrutar e aprender.",
         "q3": "Cómo podo formar un equipo?",
-        "a3": "Podes inscribirte individualmente e indicar que buscas equipo. Xuntarémoste con outros compañeiros sen equipo para que poidas participar en grupo.",
+        "a3": "Se xa tes un equipo basta con indicar o nome do equipo na inscripción. Tamén podes inscribirte individualmente e indicar que buscas equipo. Xuntarémoste con outros compañeiros sen equipo para que poidas participar en grupo.",
         "q4": "Debo levar algo?",
         "a4": "Polo menos un portátil por equipo é necesario para poder participar nos desafíos.",
         "questions": "Tes máis preguntas?", 
         "contact": "Contáctanos no noso correo electrónico:"
     },
+    "sponsors": {
+        "title": "Patrocinadores"
+    }, 
     "footer": {
         "rights": "Todos os dereitos reservados."
     }

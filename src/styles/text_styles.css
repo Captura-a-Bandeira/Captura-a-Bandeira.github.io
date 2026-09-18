@@ -1,0 +1,49 @@
+h1 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px var(--text-hover)
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  align-self: center;
+}
+
+h3 {
+  font-size: 1.5rem; 
+  margin-bottom: 0.5rem; 
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  white-space: pre-line;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem; 
+  padding: 0.5rem 0;
+}
+
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text-hover);
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+.note {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  white-space: pre-line;
+  text-align: center;
+}

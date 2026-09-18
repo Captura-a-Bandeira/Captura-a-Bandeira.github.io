@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import logo from '../assets/imgs/logo.png';
+import logo from '../assets/imgs/logo_simple.png';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -11,11 +11,11 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <a href="#hero"><img src={logo} alt="Captura a Bandeira Logo" /></a>
+        <img src={logo} alt="Captura a Bandeira Logo" />
       </div>
       <nav>
         <a href="#about-me">{t('header.about')}</a>
-        <a href="#inscriptions">{t('header.inscriptions')}</a>
+        <a href="#gallery">{t('header.gallery')}</a>
         <a href="#faq">{t('header.faq')}</a>
       </nav>
       <div className="language-switcher">
@@ -25,15 +25,15 @@ const Header = () => {
 
       <style>{`
         header {
-          background: var(--bg-header);
+          background: var(--bg-primary);
           color: var(--text-primary);
-          min-height: 4rem;
+          height: var(--header-height);
           min-width: 100%;
           padding: 0.5rem 2rem;
-          position: fixed;
           top: 0;
           z-index: 100;
           display: flex;
+          border-bottom: 1px solid var(--highlight-border);
           align-items: center;
           justify-content: space-between;
         }
@@ -44,7 +44,7 @@ const Header = () => {
         }
           
         .logo img {
-          width: 100px;
+          width: 48px;
           height: auto;
         }
 

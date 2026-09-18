@@ -27,7 +27,7 @@ const FAQ: React.FC = () => {
             <p>{t('faq.a4')}</p>   
         </details>
 
-        <details>
+        <details style={{ border: "0px"}}>
             <summary>{t('faq.questions')}</summary>
             <p>{t('faq.contact')} <strong><a href='mailto:capturaabandeira@proton.me'>capturaabandeira@proton.me</a></strong></p>   
         </details>

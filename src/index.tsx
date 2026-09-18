@@ -4,6 +4,7 @@ import App from './App';
 import './i18n/config';  
 import './styles/themes.css';
 import './styles/styles.css';
+import './styles/text_styles.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container!);
