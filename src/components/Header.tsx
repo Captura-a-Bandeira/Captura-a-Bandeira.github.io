@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import logo from '../assets/imgs/logo_simple.png';
+import logo from '../assets/imgs/logo_simple.svg';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
