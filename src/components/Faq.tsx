@@ -29,7 +29,7 @@ const FAQ: React.FC = () => {
 
         <details style={{ border: "0px"}}>
             <summary>{t('faq.questions')}</summary>
-            <p>{t('faq.contact')} <strong><a href='mailto:capturaabandeira@proton.me'>capturaabandeira@proton.me</a></strong></p>   
+            <p>{t('faq.contact')} <strong><a href='mailto:capturaabandeira@proton.me'>capturaabandeira@proton.me</a></strong> {t('faq.contact2')} <strong><a href='https://www.instagram.com/capturaabandeira/?utm_source=ig_web_button_share_sheet'>@capturaabandeira</a></strong></p>   
         </details>
 
         <style>{`

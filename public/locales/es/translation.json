@@ -47,9 +47,10 @@
         "q3": "¿Cómo puedo formar un equipo?",
         "a3": "Si ya tienes equipo basta con indicar el nombre del equipo en la inscripción. También puedes inscribirte individualmente e indicar que buscas equipo. Te juntaremos con otros compañeros sin equipo para que puedas participar en grupo.",
         "q4": "¿Debo llevar algo?",
-        "a4": "Al menos un portátil por equipo es necesario para poder participar en los desafíos.",
+        "a4": "Al menos un portátil por equipo es necesario para poder participar en los desafíos, pero lo mejor es llevar un portátil por persona. No os olvideis del cargador ni de nada que necesiteis para trabajar tranquilos.",
         "questions": "¿Tienes más preguntas?",
-        "contact": "Contáctanos en nuestro correo electrónico:"
+        "contact": "Contáctanos en nuestro correo electrónico:",
+        "contact2": "o escríbenos por instagram:"
     },
     "sponsors": {
         "title": "Patrocinadores"
