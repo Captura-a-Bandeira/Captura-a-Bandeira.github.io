@@ -15,6 +15,7 @@ const Header = () => {
       </div>
       <nav>
         <a href="#about-me">{t('header.about')}</a>
+        <a href="#inscriptions">{t('header.inscriptions')}</a>
         <a href="#gallery">{t('header.gallery')}</a>
         <a href="#faq">{t('header.faq')}</a>
       </nav>
@@ -51,7 +52,12 @@ const Header = () => {
         nav {
           display: flex;
           justify-content: space-around;
+          gap: 1.5rem;
           flex: 0.35;
+        }
+
+        nav a {
+          white-space: nowrap;
         }
 
         .language-switcher {

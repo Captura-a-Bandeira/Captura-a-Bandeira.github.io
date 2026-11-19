@@ -14,6 +14,7 @@ const Header = () => {
       <p className='subtitle'>{t('hero.subtitle')}</p>
 
       <div className="action-buttons">
+        <button onClick={() => (window.location.hash = 'inscriptions')} className="btn-inscription">{t('hero.inscribe')}</button>
         <button onClick={() => (window.location.hash = 'about-me')} className="button-secondary">{t('hero.moreInfo')}</button>
       </div>
 

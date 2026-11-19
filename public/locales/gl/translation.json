@@ -35,7 +35,12 @@
     "inscriptions": {
         "title": "Inscricións",
         "form": "Ir ao formulario de inscrición",
-        "inscribe": "Temos poucas prazas, así que non esperes para inscribirte!"
+        "inscribe": "Temos poucas prazas, así que non esperes para inscribirte!",
+        "soon": "Proximamente...",
+        "rulesTitle": "Normas",
+        "rule1": "Ser estudante (poderase pedir unha proba disto durante o evento).",
+        "rule2": "Prohibido o emprego de intelixencia artificial para a resolución dos retos.",
+        "rule3": "Buscamos crear un espazo cómodo e seguro para todos, por isto queda totalmente prohibido calquera tipo de actitude molesta cara outros participantes ou organizadores. Calquera tipo de acción ofensiva poderá supoñer a expulsión da persoa do evento."
     },
     "faq": {
         "title": "Preguntas frecuentes",
