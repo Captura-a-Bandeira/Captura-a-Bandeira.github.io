@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import logoHero from '../assets/imgs/logo_horizontal.svg';
 import bgSantiago from '../assets/imgs/foto_mapa_santiago.png'
 
-const Header = () => {
+const Hero = () => {
   const { t } = useTranslation();
 
   return (
@@ -14,6 +14,7 @@ const Header = () => {
       <p className='subtitle'>{t('hero.subtitle')}</p>
 
       <div className="action-buttons">
+        <button onClick={() => (window.location.hash = 'inscriptions')} className="btn-inscription">{t('hero.inscribe')}</button>
         <button onClick={() => (window.location.hash = 'about-me')} className="button-secondary">{t('hero.moreInfo')}</button>
       </div>
 
@@ -77,4 +78,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;
