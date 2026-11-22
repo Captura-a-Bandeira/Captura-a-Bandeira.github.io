@@ -25,7 +25,7 @@
         "location": "Emprendia (Santiago de Compostela)",
         "teams": "Hasta 5 personas",
         "credits": "Las horas de participación (4.5 horas) se engloban en el Aula Profesional",
-        "teams2": "Puedes participar individualmente, pero será mucho más divertido si formas un equipo. Puedes inscribirte individualmente e indicar que buscas equipo, te juntaremos con otros compañeros sin equipo.",
+        "teams2": "Puedes participar individualmente, pero será mucho más divertido si formas un equipo. También puedes inscribirte individualmente e indicar que buscas equipo, te juntaremos con otros compañeros sin equipo.",
         "prizesTitle": "Premios",
         "prizesDescription": "Aunque lo más importante para nosotros es que disfrutéis y aprendáis, cada participante del equipo ganador recibirá",
         "prize": "Pronto anunciaremos los premios para los ganadores, ¡estad atentos!"
@@ -38,9 +38,9 @@
         "form": "Ir al formulario de inscripción",
         "inscribe": "Tenemos pocas plazas, ¡así que no esperes para inscribirte!",
         "soon": "Próximamente...",
-        "rulesTitle": "Normas",
-        "rule1": "Ser estudiante (se podrá pedir una prueba de ello durante el evento).",
-        "rule2": "Prohibido el uso de inteligencia artificial para la resolución de los retos.",
+        "rulesTitle": "Antes de inscribirte, asegurate de leer las normas del evento:",
+        "rule1": "Para participar es obligatorio ser estudiante (se podrá pedir una prueba de ello durante el evento).",
+        "rule2": "Queda prohibido el uso de inteligencia artificial para la resolución de los retos. Este es un CTF formativo y sabemos que en promting ya estais bien formados.",
         "rule3": "Buscamos crear un espacio cómodo y seguro para todos, por eso queda totalmente prohibido cualquier tipo de actitud molesta hacia otros participantes u organizadores. Cualquier tipo de acción ofensiva podrá suponer la expulsión de la persona del evento."
     },
     "faq": {

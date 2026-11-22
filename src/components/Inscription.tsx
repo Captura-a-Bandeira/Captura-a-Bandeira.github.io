@@ -7,7 +7,6 @@ const Inscriptions: React.FC = () => {
   return (
     <section id="inscriptions" className="section" aria-labelledby="inscriptions-title">
       <h2 id="inscriptions-title">{t('inscriptions.title')}</h2>
-      <p className="inscriptions-soon">{t('inscriptions.soon')}</p>
 
       <h3>{t('inscriptions.rulesTitle')}</h3>
       <ol className="inscriptions-rules">
@@ -16,14 +15,10 @@ const Inscriptions: React.FC = () => {
         <li>{t('inscriptions.rule3')}</li>
       </ol>
 
-      <style>{`
-        .inscriptions-soon {
-          font-size: 1.3rem;
-          font-weight: bold;
-          text-align: center;
-          margin-bottom: 1.5rem;
-        }
+      <button className="inscriptions-btn">{t('inscriptions.soon')}</button>
 
+
+      <style>{`
         .inscriptions-rules {
           padding-left: 1.5rem;
           font-size: 1.2rem;
@@ -38,6 +33,14 @@ const Inscriptions: React.FC = () => {
         .inscriptions-rules li::marker {
           color: var(--accent-color);
           font-weight: bold;
+        }
+
+        .inscriptions-btn {
+          margin-top: 1.2em;
+          width: 10em;
+          align-self: center;
+          height: 3em;  
+          font-size: 1rem;
         }
       `}</style>
     </section>

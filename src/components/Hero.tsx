@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import logoHero from '../assets/imgs/logo_horizontal.svg';
 import bgSantiago from '../assets/imgs/foto_mapa_santiago.png'
 
-const Header = () => {
+const Hero = () => {
   const { t } = useTranslation();
 
   return (
@@ -78,4 +78,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;
